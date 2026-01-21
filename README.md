@@ -42,18 +42,17 @@ performance sensitivity.
 ## Project Structure
 
 ML-hyperparameter-sensitivity-study/
-|
-├── datasets/            # All datasets used in the project
-├── notebooks/           # Dataset-specific analysis notebooks
-├── framework/           # Reusable ML framework
-|   ├── models/          # Individual model implementations
-|   ├── preprocessing.py
-|   ├── sensitivity_analysis.py
-|   └── main.py
-├── results/             # Result summaries
-├── report/              # Final report and presentation
-├── requirements.txt     # Project dependencies
-└── README.md
+- datasets/
+- notebooks/
+- framework/
+  - models/
+  - preprocessing.py
+  - sensitivity_analysis.py
+  - main.py
+- results/
+- report/
+- requirements.txt
+- README.md
 
 ---
 
